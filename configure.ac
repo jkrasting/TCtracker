@@ -72,7 +72,7 @@ AS_IF([test "$NCRCAT" == "none"],
 # Check that python3 and python packages are available
 AM_PATH_PYTHON([3.6])
 AX_PYTHON_MODULE([jinja2], [t])
-AX_PYTHON_MODULE([pyferret], [t])
+#AX_PYTHON_MODULE([pyferret], [t])
 AX_PYTHON_MODULE([scipy.io], [t])
 
 # f2py for python/Fortran functionality
